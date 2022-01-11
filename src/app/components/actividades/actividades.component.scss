@@ -1,0 +1,37 @@
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+.contenedor{
+  display: flex;
+  gap: 20px;
+  height: 100vh;
+  justify-content: space-evenly;
+}
+
+.contenedor-actividad{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.actividad{
+  width: 50%;
+}
+
+.actividad-img{
+  height: 100%;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.actividad-img .textos{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+}
+
