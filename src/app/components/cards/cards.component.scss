@@ -4,5 +4,15 @@
 }
 
 .lugares{
-  height: 100vh;
+  min-height: 100vh;
+}
+
+
+.card-content{
+  width: 15rem;
+}
+
+
+@media screen and (min-width: 768px) {
+
 }

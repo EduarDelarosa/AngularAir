@@ -12,6 +12,31 @@
 
 .contenido-final{
   display: flex;
+  justify-content: space-between;
+}
+
+.left{
+  display: flex;
+}
+
+.left > div {
+  padding: 5px;
+}
+
+.right {
+	width: 15%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.right div {
+	margin: 0 .5em;
+}
+
+.right div a{
+  font-weight: 450;
+  color: #000;
 }
 
 .contentfooter{
